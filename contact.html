@@ -61,36 +61,15 @@
 
 <!-- bloc-15 -->
 <div class="bloc l-bloc " id="bloc-15">
-	<div class="container bloc-lg">
+	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/placeholder-image-wide.png" class="img-responsive" alt='' />
-				<h3 class="mg-md">
-					A Standard Post
-				</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-				</p>
+        <iframe src="https://docs.google.com/a/mapconcierge.com/forms/d/1SHOnHVTbr2C6PKpwMs2SNIZEIPd04dS5FTyr44hnCvE/viewform?embedded=true" width="800" height="1050" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-15 END -->
-
-<!-- bloc-16 -->
-<div class="bloc l-bloc " id="bloc-16">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-8">
-				<span class="empty-column"></span>
-			</div>
-			<div class="col-sm-4">
-				<span class="empty-column"></span>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-16 END -->
 
 <!-- Footer - bloc-22 -->
 <div class="bloc l-bloc bgc-white" id="bloc-22">
@@ -149,6 +128,16 @@
 </div>
 <!-- Footer - bloc-22 END -->
 
+<script>
+function check(input) {
+  if (input.value != document.getElementById('email_addr').value) {
+    input.setCustomValidity('The two email addresses must match.');
+  } else {
+    // input is valid -- reset the error message
+    input.setCustomValidity('');
+  }
+}
+</script>
 </body>
 
 <!-- Google Analytics -->
