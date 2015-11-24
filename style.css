@@ -72,7 +72,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	color:rgba(255,255,255,.9);
 }
 .d-bloc h1, .d-bloc h2, .d-bloc h3, .d-bloc h4,.d-bloc h5, .d-bloc h6, .d-bloc .ico{
-	color:rgba(255,255,255,.9);
+	color:rgba(255,255,255,1);
 }
 .d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
 	border-color:rgba(255,255,255,.9);
