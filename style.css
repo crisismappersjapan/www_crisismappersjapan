@@ -347,7 +347,7 @@ nav .caret{
 .btn-d,.btn-d:hover,.btn-d:focus{
 	color:#FFF!important;
 	background:rgb(217, 82, 81);
-	box-shadow:4px 4px #555;
+	box-shadow:2px 2px 2px #464646;
 }
 
 /* Prevent ugly blue glow on chrome and safari */
